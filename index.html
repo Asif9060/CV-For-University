@@ -8,6 +8,27 @@
       <link rel="stylesheet" href="style.css" />
    </head>
    <body>
+      <!-- Loading Screen -->
+      <div id="loading-screen" class="loading-screen">
+         <div class="loading-content">
+            <div class="loading-logo">
+               <div class="logo-circle">
+                  <span class="logo-text">AF</span>
+               </div>
+            </div>
+            <h2 class="loading-title">G.M Asif Foisal</h2>
+            <p class="loading-subtitle">Computer Science Student</p>
+            <div class="loading-spinner">
+               <div class="spinner-dots">
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+               </div>
+            </div>
+            <p class="loading-text">Loading CV...</p>
+         </div>
+      </div>
+
       <div class="cv-shell">
          <!-- Sidebar -->
          <aside class="sidebar" aria-label="Sidebar with personal details">
@@ -50,24 +71,84 @@
                   <li>VS Code</li>
                </ul>
             </section>
+            <section class="block">
+               <h2 class="block-title">Languages</h2>
+               <ul class="list">
+                  <li><strong>Bangla:</strong> Native</li>
+                  <li><strong>English:</strong> Fluent</li>
+                  <li><strong>Hindi:</strong> Conversational</li>
+               </ul>
+            </section>
+            <section class="block">
+               <h2 class="block-title">Social Media</h2>
+               <div class="social-links">
+                  <a href="https://www.facebook.com/asif.foisal.2025/" target="_blank" class="social-link facebook">
+                     <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                     </svg>
+                     <span>Facebook</span>
+                  </a>
+                  <a href="https://github.com/Asif9060" target="_blank" class="social-link github">
+                     <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                     </svg>
+                     <span>GitHub</span>
+                  </a>
+                  <a href="www.linkedin.com/in/asif-foisal-b1183436b" target="_blank" class="social-link linkedin">
+                     <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                     </svg>
+                     <span>LinkedIn</span>
+                  </a>
+                  <a href="https://x.com/Asif_Foisal10" target="_blank" class="social-link twitter">
+                     <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                     </svg>
+                     <span>Twitter</span>
+                  </a>
+               </div>
+            </section>
          </aside>
 
          <!-- Main Content -->
          <main class="main" aria-label="Main CV content">
             <header class="intro">
-               <h2 class="headline">Curriculum Vitae</h2>
-               <p class="summary">
+               <h2 class="headline">
+                  <span class="animated-text">Curriculum Vitae</span>
+                  <span class="subtitle-badge">Professional Profile</span>
+               </h2>
+               <div class="typing-container">
+                  <p class="typing-text">
+                     <span class="typed-text"></span>
+                     <span class="cursor">|</span>
+                  </p>
+               </div>
+               <p class="summary fade-in-up">
                   Motivated Computer Science student with a solid foundation in
                   programming, web technologies and problem solving through competitive
                   programming practice. Passionate about building efficient, scalable
                   solutions and continuously learning modern technologies.
                </p>
+               <div class="stats-grid">
+                  <div class="stat-item fade-in-up" data-delay="0.2s">
+                     <div class="stat-number" data-target="2">0</div>
+                     <div class="stat-label">Years Experience</div>
+                  </div>
+                  <div class="stat-item fade-in-up" data-delay="0.4s">
+                     <div class="stat-number" data-target="5">0</div>
+                     <div class="stat-label">Projects Completed</div>
+                  </div>
+                  <div class="stat-item fade-in-up" data-delay="0.6s">
+                     <div class="stat-number" data-target="8">0</div>
+                     <div class="stat-label">Technologies</div>
+                  </div>
+               </div>
             </header>
 
-            <section class="section">
+            <section class="section fade-in-up">
                <h3 class="section-title">Education</h3>
                <div class="timeline">
-                  <div class="time-item">
+                  <div class="time-item slide-in-left">
                      <div class="time-marker"></div>
                      <div class="time-content">
                         <h4>
@@ -81,7 +162,7 @@
                         </p>
                      </div>
                   </div>
-                  <div class="time-item">
+                  <div class="time-item slide-in-left" data-delay="0.2s">
                      <div class="time-marker"></div>
                      <div class="time-content">
                         <h4>
@@ -93,7 +174,7 @@
                         <p class="meta">2022 | GPA: 4.08</p>
                      </div>
                   </div>
-                  <div class="time-item">
+                  <div class="time-item slide-in-left" data-delay="0.4s">
                      <div class="time-marker"></div>
                      <div class="time-content">
                         <h4>
@@ -108,10 +189,10 @@
                </div>
             </section>
 
-            <section class="section">
+            <section class="section fade-in-up">
                <h3 class="section-title">Technical Experience</h3>
                <div class="card-list">
-                  <article class="card">
+                  <article class="card scale-in" data-delay="0.1s">
                      <h4>Competitive Programming Practice</h4>
                      <p class="meta">2 Years</p>
                      <p class="desc">
@@ -120,7 +201,7 @@
                         skills.
                      </p>
                   </article>
-                  <article class="card">
+                  <article class="card scale-in" data-delay="0.3s">
                      <h4>Web Development Projects</h4>
                      <p class="meta">Personal / Academic</p>
                      <p class="desc">
@@ -131,10 +212,14 @@
                </div>
             </section>
 
-            <section class="section">
+            <section class="section fade-in-up">
                <h3 class="section-title">Projects</h3>
                <div class="projects-grid">
-                  <a class="project-link" href="https://comptron.nwu.ac.bd/" target="_blank">
+                  <a
+                     class="project-link float-in"
+                     href="https://comptron.nwu.ac.bd/"
+                     target="_blank"
+                     data-delay="0.1s">
                      <div class="project">
                         <h4>Comptron Website</h4>
                         <p class="stack">ReactJs • Node.js • MongoDB</p>
@@ -144,7 +229,10 @@
                         </p>
                      </div>
                   </a>
-                  <a class="project-link" href="https://restrain-yourself.vercel.app/" target="_blank">
+                  <a
+                     class="project-link float-in"
+                     href="https://restrain-yourself.vercel.app/"
+                     target="_blank">
                      <div class="project">
                         <h4>Habit Tracker</h4>
                         <p class="stack">NextJs • Supabase</p>
@@ -154,7 +242,10 @@
                      </div>
                   </a>
 
-                  <a class="project-link" href="https://echo-eight-ruddy.vercel.app/" target="_blank">
+                  <a
+                     class="project-link float-in"
+                     href="https://echo-eight-ruddy.vercel.app/"
+                     target="_blank">
                      <div class="project">
                         <h4>SSAS's Echo</h4>
                         <p class="stack">ReactJs • Node.js • Express • MongoDB</p>
@@ -176,11 +267,193 @@
                </ul>
             </section>
 
+            <section class="section">
+               <h3 class="section-title">References</h3>
+               <div class="card-list">
+                  <!-- <article class="card">
+                     <h4>Dr. Muhammad Aminul Islam</h4>
+                     <p class="meta">Professor & Head</p>
+                     <p class="desc">
+                        Department of Computer Science & Engineering<br />
+                        North Western University, Khulna<br />
+                        <strong>Email:</strong> aminul@nwu.ac.bd<br />
+                        <strong>Phone:</strong> +880 1711-123456
+                     </p>
+                  </article> -->
+                  <article class="card">
+                     <h4>Tajul Islam</h4>
+                     <p class="meta">Assistant Professor</p>
+                     <p class="desc">
+                        Department of Computer Science & Engineering<br />
+                        North Western University, Khulna<br />
+                        <strong>Email:</strong> tajulkuet09@gmail.com, amtajul@nwu.ac.bd<br />
+                        <strong>Phone:</strong>  +880-1714070902, +880-1841724707
+                     </p>
+                  </article>
+               </div>
+            </section>
+
             <section class="section signature-block">
-               <p class="signature-label">Signature</p>
-               <p class="signature-text">Asif</p>
+               <div class="signature-container">
+                  <p class="signature-label">Signature</p>
+                  
+                  <!-- Digital Signature Image -->
+                  <div class="signature-image-wrapper">
+                     <img src="asif.png" 
+                          alt="Digital Signature" 
+                          class="signature-image"
+                          onerror="this.style.display='none'; document.querySelector('.signature-fallback').style.display='block';">
+                  </div>
+                  
+                  <!-- Fallback Text Signature -->
+                  <div class="signature-fallback" style="display: none;">
+                     <p class="signature-text">Asif</p>
+                  </div>
+               </div>
             </section>
          </main>
       </div>
+
+         <script>
+         // Loading screen functionality
+         window.addEventListener('load', function() {
+            const loadingScreen = document.getElementById('loading-screen');
+            const cvShell = document.querySelector('.cv-shell');
+            
+            // Hide CV initially
+            cvShell.style.opacity = '0';
+            
+            // Show loading screen animation for 3 seconds
+            setTimeout(function() {
+               loadingScreen.style.opacity = '0';
+               loadingScreen.style.transform = 'scale(1.1)';
+               
+               setTimeout(function() {
+                  loadingScreen.style.display = 'none';
+                  cvShell.style.opacity = '1';
+                  cvShell.style.transform = 'translateY(0)';
+                  
+                  // Start animations after CV loads
+                  initializeAnimations();
+               }, 800);
+            }, 3500);
+         });
+
+         // Animation initialization
+         function initializeAnimations() {
+            // Ultra-smooth typing animation
+            const typingText = document.querySelector('.typed-text');
+            const words = ['Passionate Developer', 'Problem Solver', 'Tech Enthusiast', 'CS Student'];
+            let wordIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+
+            function typeWords() {
+               const currentWord = words[wordIndex];
+               
+               if (isDeleting) {
+                  typingText.textContent = currentWord.substring(0, charIndex - 1);
+                  charIndex--;
+               } else {
+                  typingText.textContent = currentWord.substring(0, charIndex + 1);
+                  charIndex++;
+               }
+
+               // Ultra-smooth variable speeds with natural rhythm
+               let typeSpeed;
+               if (!isDeleting) {
+                  // Typing: slight randomness for human-like effect
+                  typeSpeed = 80 + Math.random() * 40; // 80-120ms
+               } else {
+                  // Deleting: faster and smoother
+                  typeSpeed = 30 + Math.random() * 20; // 30-50ms
+               }
+
+               if (!isDeleting && charIndex === currentWord.length) {
+                  typeSpeed = 3000; // Longer pause to appreciate the word
+                  isDeleting = true;
+               } else if (isDeleting && charIndex === 0) {
+                  isDeleting = false;
+                  wordIndex = (wordIndex + 1) % words.length;
+                  typeSpeed = 500; // Smooth pause before next word
+               }
+
+               setTimeout(typeWords, typeSpeed);
+            }
+
+            setTimeout(typeWords, 1000);
+
+            // Ultra-smooth number animation with advanced easing
+            function animateNumbers() {
+               const numbers = document.querySelectorAll('.stat-number');
+               numbers.forEach((number, index) => {
+                  const target = parseInt(number.getAttribute('data-target'));
+                  const duration = 2500 + (index * 200); // Staggered timing for flow
+                  const startTime = performance.now();
+                  
+                  function updateNumber(currentTime) {
+                     const elapsed = currentTime - startTime;
+                     const progress = Math.min(elapsed / duration, 1);
+                     
+                     // Advanced easing: elastic ease-out for floating effect
+                     let easedProgress;
+                     if (progress < 0.5) {
+                        // Smooth acceleration
+                        easedProgress = 2 * progress * progress;
+                     } else {
+                        // Smooth deceleration with slight bounce
+                        const p = 2 * progress - 1;
+                        easedProgress = 1 - 0.5 * Math.pow(1 - p, 4);
+                     }
+                     
+                     // Add subtle floating effect
+                     const floatingOffset = Math.sin(progress * Math.PI * 2) * 0.02;
+                     const current = Math.floor((easedProgress + floatingOffset) * target);
+                     
+                     number.textContent = Math.max(0, Math.min(current, target));
+                     
+                     if (progress < 1) {
+                        requestAnimationFrame(updateNumber);
+                     } else {
+                        number.textContent = target;
+                        // Add completion glow effect
+                        number.style.transform = 'scale(1.05)';
+                        number.style.textShadow = '0 0 10px rgba(79, 125, 245, 0.5)';
+                        setTimeout(() => {
+                           number.style.transform = 'scale(1)';
+                           number.style.textShadow = 'none';
+                        }, 300);
+                     }
+                  }
+                  
+                  requestAnimationFrame(updateNumber);
+               });
+            }
+
+            setTimeout(animateNumbers, 1500);
+
+            // Scroll animations
+            const observerOptions = {
+               threshold: 0.1,
+               rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+               entries.forEach(entry => {
+                  if (entry.isIntersecting) {
+                     const delay = entry.target.getAttribute('data-delay') || '0s';
+                     entry.target.style.animationDelay = delay;
+                     entry.target.classList.add('animate');
+                  }
+               });
+            }, observerOptions);
+
+            // Observe all animation elements
+            document.querySelectorAll('.fade-in-up, .slide-in-left, .scale-in, .float-in').forEach(el => {
+               observer.observe(el);
+            });
+         }
+      </script>
+      </script>
    </body>
 </html>
